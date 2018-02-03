@@ -1,0 +1,40 @@
+body {
+    background: #000;
+    font-family: Garamond;
+    margin: 0px;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+/*https://www.w3schools.com/cssref/css_selectors.asp*/
+ul li {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+}
+
+ul li a {
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+.highlight {
+
+}
+
+
+#main {
+    background: #FFA500;
+    text-align: center;
+    height: 50px;
+}
