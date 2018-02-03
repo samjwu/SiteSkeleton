@@ -25,13 +25,12 @@ ul li a {
     color: #fff;
     width: 100%;
     line-height: 50px;
+    text-decoration: none;
 }
 
-
-.highlight {
-
+ul li.highlight {
+    background: #000;
 }
-
 
 #main {
     background: #FFA500;
