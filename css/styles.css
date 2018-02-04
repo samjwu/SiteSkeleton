@@ -32,6 +32,10 @@ ul li.highlight {
     background: #000;
 }
 
+ul li.highlight a {
+    color: #FFA500;
+}
+
 #main {
     background: #FFA500;
     text-align: center;
