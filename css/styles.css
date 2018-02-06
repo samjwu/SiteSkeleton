@@ -1,5 +1,20 @@
-@media (min-width: 200px) and (max-width: 500px) {
-    
+@media (min-width: 200px) and (max-width: 400px) {
+    #main ul {
+        display: none;
+    }
+    #main highlight {
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+@media (mid-width: 400px) {
+    #main ul {
+        margin-top: 0px;
+    }
+    #main highlight {
+        display: none;
+    }
 }
 
 body {
