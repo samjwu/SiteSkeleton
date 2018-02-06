@@ -8,6 +8,8 @@ menu.js
 https://www.w3schools.com/jquery/jquery_selectors.asp
 https://www.w3schools.com/tags/tag_select.asp
 http://api.jquery.com/append/
+https://www.w3schools.com/js/js_window_location.asp
+https://api.jquery.com/change/
 http://api.jquery.com/jquery.each/
 https://www.w3schools.com/tags/tag_option.asp
 http://api.jquery.com/val/
