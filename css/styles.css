@@ -2,9 +2,9 @@
     #main ul {
         display: none;
     }
-    #main highlight {
-        width: 90%;
-        margin-top: 10px;
+    #main select {
+        width: 30%;
+        margin-top: 15px;
     }
 }
 
