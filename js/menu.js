@@ -12,7 +12,7 @@ $("#main a").each(function() {
     $option.text($(this).text());
 
     if($(this).parent().hasClass("highlight")) {
-        $option.prop("highlight", true);
+        $option.prop("selected", true);
     }
 
     $select.append($option);
