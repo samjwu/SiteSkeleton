@@ -1,4 +1,4 @@
-@media (min-width: 200px) and (max-width: 400px) {
+@media (min-width: 200px) and (max-width: 500px) {
     #main ul {
         display: none;
     }
@@ -8,7 +8,7 @@
     }
 }
 
-@media (mid-width: 400px) {
+@media (min-width: 500px) {
     #main ul {
         margin-top: 0px;
     }
