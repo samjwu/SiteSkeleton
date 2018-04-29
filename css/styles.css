@@ -5,7 +5,8 @@
     --homepage-img: url("../img/homepage.jpg");
     --font-style: Garamond;
     --font-color: #fff;
-    --link-color: skyblue;
+    --button-color: blue;
+    --button-font-color: #fff;
 }
 
 
@@ -82,17 +83,34 @@ ul li.highlight a {
     flex-direction: column;
     justify-content: center;
     color: var(--font-color);
+    align-items: center;
 }
 
 h1 {
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 p {
-    font-size: 1rem;    
+    font-size: 1rem;
+    margin-bottom: 1rem;    
 }
 
-a {
+.button {
     font-size: 1rem;
-    color: var(--link-color);
+    width: 10vw;
+    color: var(--button-font-color);
+    border: var(--button-color) 1px solid; 
+    padding: 1rem 1rem;
+    background-color: var(--button-color);
+    text-decoration: none;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: var(--button-font-color);
+    color: var(--button-color);
 }
