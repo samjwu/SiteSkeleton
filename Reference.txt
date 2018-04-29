@@ -3,6 +3,8 @@ https://www.w3schools.com/cssref/css_selectors.asp
 https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 https://www.w3schools.com/css/css3_mediaqueries.asp
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
+https://www.w3schools.com/cssref/pr_background-position.asp
 
 menu.js
 https://www.w3schools.com/jquery/jquery_selectors.asp
