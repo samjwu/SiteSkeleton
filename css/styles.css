@@ -1,3 +1,17 @@
+/* Set Customizable Variables Here */
+:root {
+    --nav-bar-color: #ffa500;
+    --nav-bar-highlight-color: #000;
+    --homepage-img: url("../img/homepage.jpg");
+    --font-style: Garamond;
+    --font-color: #fff;
+    --link-color: skyblue;
+}
+
+
+
+/* Do not change variables below */
+
 @media (min-width: 200px) and (max-width: 500px) {
     #main ul {
         display: none;
@@ -23,15 +37,14 @@
 }
 
 body {
-    background: #000;
-    font-family: Garamond;
+    font-family: var(--font-style);
     margin: 0px;
 }
 
 #mainnav {
-    background: #ffa500;
+    background: var(--nav-bar-color);
     text-align: center;
-    height: 50px;
+    height: 3rem;
 }
 
 ul {
@@ -41,43 +54,45 @@ ul {
 ul li {
     display: inline-block;
     text-align: center;
-    width: 100px;
+    width: 5rem;
 }
 
 ul li a {
-    color: #fff;
+    color: var(--font-color);
     width: 100%;
-    line-height: 55px;
+    line-height: 3rem;
     text-decoration: none;
 }
 
 ul li.highlight {
-    background: #000;
+    background: var(--nav-bar-highlight-color);
 }
 
 ul li.highlight a {
-    color: #ffa500;
+    color: var(--nav-bar-color);
 }
 
 .container {
-    background-image: url("../img/homepage.jpg");
+    background-image: var(--homepage-img);
     background-size: cover;
     background-position: center;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--font-color);
 }
 
 h1 {
-    color: #fff;
     font-size: 3rem;
 }
 
 p {
-    color: #fff;
     font-size: 1rem;    
 }
 
 a {
-    color: #ffa500;
     font-size: 1rem;
+    color: var(--link-color);
 }

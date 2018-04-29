@@ -5,6 +5,9 @@ https://www.w3schools.com/css/css3_mediaqueries.asp
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
 https://www.w3schools.com/cssref/pr_background-position.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+https://developer.mozilla.org/en-US/docs/Web/CSS/:root
+https://developer.mozilla.org/en-US/docs/Web/CSS/--*
 
 menu.js
 https://www.w3schools.com/jquery/jquery_selectors.asp
