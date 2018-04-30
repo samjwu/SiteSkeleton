@@ -3,6 +3,8 @@
     --nav-bar-color: #ffa500;
     --nav-bar-highlight-color: #000;
     --homepage-img: url("../img/homepage.jpg");
+    --aboutpage-img: url("../img/aboutpage.jpg");
+    --page-bg-color: #000;
     --font-style: Garamond;
     --font-color: #fff;
     --button-color: #000;
@@ -40,6 +42,7 @@
 body {
     font-family: var(--font-style);
     margin: 0px;
+    background-color: var(--page-bg-color);
 }
 
 #mainnav {
@@ -81,7 +84,7 @@ ul li.highlight a {
     color: var(--nav-bar-color);
 }
 
-.container {
+.homepage {
     background-image: var(--homepage-img);
     background-size: cover;
     background-position: center;
@@ -92,6 +95,22 @@ ul li.highlight a {
     justify-content: center;
     color: var(--font-color);
     align-items: center;
+}
+
+.aboutpage {
+    background-image: var(--aboutpage-img);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    align-items: center;
+}
+
+.aboutpage h1 {
+    margin-top: 3rem;
 }
 
 h1 {
