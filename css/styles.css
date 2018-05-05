@@ -17,25 +17,12 @@
 /* Do not change variables below */
 
 @media (min-width: 200px) and (max-width: 500px) {
-    #main ul {
-        display: none;
-    }
-    #main select {
-        width: 30%;
-        margin-top: 15px;
-    }
     .contactpage {
         font-size: 2rem;
     }
 }
 
 @media (min-width: 500px) {
-    #main ul {
-        margin-top: 0px;
-    }
-    #main select {
-        display: none;
-    }
     .contactpage {
         font-size: 4rem;
     }
